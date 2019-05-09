@@ -1,0 +1,16 @@
+{
+    "files": {
+        "README.md": "968e67e4c52a99c45873622b345f0a26657c1c0d88085dee75803db209fc02f9",
+        "index.js": "776520827f3e644bc4c23ef13ceec00953a0e5716ef38b45171fcf99cd36c352",
+        "module.json": "98c6cbe30525ee1b36ea83849cec54c6cef23c2678aa5bdeef4c1f019d52ca86"
+    },
+    "defs": {
+        "C_NPC_CONTACT": 2,
+        "C_PLAYER_LOCATION": 5,
+        "C_SELECT_CHANNEL": "*",
+        "S_DESPAWN_NPC": 3,
+        "S_INSTANT_MOVE": 3,
+        "S_LOGIN": 13,
+        "S_SPAWN_NPC": 11
+    }
+}

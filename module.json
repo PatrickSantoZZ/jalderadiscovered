@@ -1,0 +1,8 @@
+{
+    "disableAutoUpdate": false,
+    "name": "jalderadiscovered",
+    "author": "Nekonekoo",
+    "version": "10.05.2019",
+    "description": "Adds a way to get into Baldera in Tera",
+    "servers": ["https://raw.githubusercontent.com/PatrickSantoZZ/jalderadiscovered/master/"]
+}

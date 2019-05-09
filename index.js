@@ -62,7 +62,7 @@ module.exports = function BalderaDiscovered(dispatch) {
   }
 
   function spawnNPC(gameId, position, rotation, templateId, huntingZoneId, spawnType) {
-    dispatch.toClient('S_SPAWN_NPC', 8, {
+    dispatch.toClient('S_SPAWN_NPC', 11, {
       gameId: gameId,
       target: {
         low: 0,
@@ -125,7 +125,7 @@ module.exports = function BalderaDiscovered(dispatch) {
   }
 
 
-  dispatch.hook('S_LOGIN', 10, event => {
+  dispatch.hook('S_LOGIN', 13, event => {
     state.playerGameID = event.gameId;
   })
 
